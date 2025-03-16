@@ -43,6 +43,7 @@ logout.addEventListener("click", (event) => {
   hideSection("faq");
   hideSection("Vocabulary");
   hideSection("navbar");
+  showSection('bannerContainer');
 });
 
 // ================== Create dynamically generated buttons from API-01 for each lesson=============
